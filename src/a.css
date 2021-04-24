@@ -1,0 +1,144 @@
+.header {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu{
+    width: 1032px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pro{
+    height: 65px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+}
+
+.tum{
+    height: 65px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sear{
+     height: 65px;
+     width: 340px;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+#tumblbug_logo {
+    height: 22.5px;
+}
+
+.around{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 14px 0px 0px;
+}
+
+.post{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sign{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 2px 28px;
+}
+
+.body {
+    background-color: yellow;
+    min-height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+}
+
+.ima{
+    background-color: orange;
+    width: 1032px;
+    display: flex;
+
+}
+
+.big {
+    height: 383px;
+    width: 680px;
+}
+
+ img {
+    height: 383px;
+    width: 680px;
+}
+
+
+.small {
+    background-color: #663300;
+    height: 383px;
+    width: 352px;
+}
+
+.box {
+    padding: 0px 32px;
+    height: 383px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.angry {
+    height: 174px;
+    width: 288px;
+}
+
+body{
+    margin: 0px;
+}
+
+.text {
+    width: 288px;
+    height: 122px;
+    margin: 0px 0px 20px;
+}
+
+.mask {
+    width: 288px;
+    height: 89.33px;
+    margin: 0px 0px 12px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.daily {
+    width: 288px;
+    height: 20px;
+    font-size: 13px;
+    color: white;
+
+}
+
+.four {
+    width: 288px;
+    height: 32px;
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 16px;
+}
