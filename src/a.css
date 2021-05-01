@@ -2,7 +2,7 @@
     height: 65px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .menu{
@@ -59,7 +59,7 @@
 }
 
 .body {
-    background-color: yellow;
+    background-color: rgb(127, 129, 153);
     min-height: calc(100vh - 65px);
     display: flex;
     justify-content: center;
