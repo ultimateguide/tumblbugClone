@@ -2,7 +2,7 @@
     height: 65px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .menu{
@@ -133,16 +133,25 @@ body{
 .four {
     width: 288px;
     height: 32px;
+    display: flex;
 }
 
 .button {
-    background-color: green;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 32px;
     height: 32px;
-    border-width: 1px;
-    border-color: white;
+    border: 1px solid white;
     border-radius: 50%;
+    color: white;
+}
+
+.button > span {
+    margin-bottom: 5px;
+}
+
+.button:not(:first-child)  {
+    margin-left: 10px;
 }
