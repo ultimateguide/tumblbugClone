@@ -136,9 +136,13 @@ body{
 }
 
 .button {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
     height: 32px;
     border-width: 1px;
     border-color: white;
-    border-radius: 16px;
+    border-radius: 50%;
 }
