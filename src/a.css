@@ -28,13 +28,13 @@
 }
 
 .sear{
-     height: 65px;
-     width: 340px;
-     padding: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
+    height: 65px;
+    width: 340px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
 
 #tumblbug_logo {
@@ -119,14 +119,12 @@ body{
     margin: 0px 0px 12px;
     font-size: 30px;
     font-weight: bold;
-    color: white;
 }
 
 .daily {
     width: 288px;
     height: 20px;
     font-size: 13px;
-    color: white;
 
 }
 
@@ -134,6 +132,7 @@ body{
     width: 288px;
     height: 32px;
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -145,13 +144,24 @@ body{
     height: 32px;
     border: 1px solid white;
     border-radius: 50%;
-    color: white;
+    margin-right: 10px;
 }
 
 .button > span {
-    margin-bottom: 5px;
+    margin-bottom:5px;
 }
 
-.button:not(:first-child)  {
-    margin-left: 10px;
+.button, .daily, .order, .mask{
+    color: white;
+}
+
+.order{
+    background-color: rgba(13, 13, 13, 0.2);
+    width: 42px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    border-radius: 11px;
 }
