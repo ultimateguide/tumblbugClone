@@ -63,12 +63,14 @@
     min-height: calc(100vh - 65px);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ima{
     background-color: orange;
     width: 1032px;
     display: flex;
+    margin: 0px auto 40px;
 
 }
 
@@ -77,7 +79,7 @@
     width: 680px;
 }
 
- img {
+img {
     height: 383px;
     width: 680px;
 }
@@ -164,4 +166,18 @@ body{
     align-items: center;
     font-size: 11px;
     border-radius: 11px;
+}
+
+.project{
+    width: 1056px;
+    display: flex;
+}
+
+.frame{
+    width: 1056px;
+    height: 28.667px;
+    padding: 0px 12px;
+    margin: 0px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
