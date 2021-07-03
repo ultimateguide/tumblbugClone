@@ -59,7 +59,6 @@
 }
 
 .body {
-    background-color: rgb(127, 129, 153);
     min-height: calc(100vh - 65px);
     display: flex;
     justify-content: center;
@@ -79,7 +78,7 @@
     width: 680px;
 }
 
-img {
+.big > img {
     height: 383px;
     width: 680px;
 }
@@ -170,7 +169,7 @@ body{
 
 .project{
     width: 1056px;
-    display: flex;
+
 }
 
 .frame{
@@ -181,3 +180,55 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
+.column{
+    background-color: blue;
+    width: 100%;
+    min-height: calc(100vh - 48.667px);
+    display: flex;
+    flex-direction: row;
+}
+
+.cannes{
+    width: 25%;
+    padding: 0px 12px 64px;
+    height: 292px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cannes > img{
+    width: 240px;
+    height: 180px;
+    border-radius: 1px;
+}
+
+.explain{
+    width: 240px;
+    height: 76px;
+    padding-top: 12px;
+}
+
+.type{
+    width: 240px;
+    height: 18.667px;
+    padding-bottom: 4px;
+    color: rgb(158, 158, 158);
+    font-size: 11px;
+}
+.subject{
+    width: 240px;
+    height: 26.67px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.percentage{
+    width: 240px;
+    height: 24px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
