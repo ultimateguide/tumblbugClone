@@ -182,7 +182,6 @@ body{
 }
 
 .column{
-    background-color: blue;
     width: 100%;
     min-height: calc(100vh - 48.667px);
     display: flex;
@@ -201,7 +200,7 @@ body{
 .cannes > img{
     width: 240px;
     height: 180px;
-    border-radius: 1px;
+    border-radius: 3px;
 }
 
 .explain{
@@ -222,6 +221,7 @@ body{
     height: 26.67px;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', Arial, 'NotoSansKR', sans-serif;
 }
 
 .percentage{
