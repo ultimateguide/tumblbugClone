@@ -60,8 +60,11 @@
 
 .body {
     min-height: calc(100vh - 65px);
+    margin: auto;
+    width: 1056px;
     display: flex;
     justify-content: center;
+
     flex-wrap: wrap;
 }
 
